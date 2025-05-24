@@ -1,0 +1,22 @@
+.navbar {
+  background: #fff;
+  height: 65px;
+  position: fixed;
+  width: calc(100% - 330px);
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--color-gray-1);
+}
+.pageTitle {
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

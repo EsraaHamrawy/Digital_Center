@@ -1,0 +1,22 @@
+.appLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-primary);
+  text-transform: capitalize;
+}

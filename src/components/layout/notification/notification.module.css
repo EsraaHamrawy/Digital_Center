@@ -1,0 +1,24 @@
+.notification {
+  width: 45px;
+  height: 45px;
+  gap: 0px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-gray-1);
+  position: relative;
+}
+.icon {
+  color: var(--color-gray-0);
+}
+.notification::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 14px;
+  right: 16px;
+  background-color: var(--color-notfication);
+  border-radius: 100%;
+}
