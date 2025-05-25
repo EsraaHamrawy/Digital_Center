@@ -7,44 +7,44 @@ import LinkCard from "../../components/home/navlink/linkcard";
 const linkfirstrowData = [
   {
     to: "/",
-    imageSrc: "/images/Meetingsmanagement.png",
+    imageSrc: "./images/Meetingsmanagement.png",
     text: "Meetings\n management",
   },
   {
     to: "/correspondences/createCorrs",
-    imageSrc: "/images/CorrespondenceManagement.png",
+    imageSrc: "./images/CorrespondenceManagement.png",
     text: "Correspondence management",
   },
   {
     to: "/",
-    imageSrc: "/images/TasksManagement.png",
+    imageSrc: "./images/TasksManagement.png",
     text: "Tasks\n management",
   },
   {
     to: "/",
-    imageSrc: "/images/ProjectsManagemen.png",
+    imageSrc: "./images/ProjectsManagemen.png",
     text: "Projects management",
   },
 ];
 const linksecondrowData = [
   {
     to: "/purchase/createPurchase",
-    imageSrc: "/images/PurchaseProcess.png",
+    imageSrc: "./images/PurchaseProcess.png",
     text: "Purchase\n Process",
   },
   {
     to: "/",
-    imageSrc: "/images/HiringProcess.png",
+    imageSrc: "./images/HiringProcess.png",
     text: "Hiring\n Process",
   },
   {
     to: "/",
-    imageSrc: "/images/ClearanceProcess.png",
+    imageSrc: "./images/ClearanceProcess.png",
     text: "Clearance\n Process",
   },
   {
     to: "/",
-    imageSrc: "/images/InnovationProcess.png",
+    imageSrc: "./images/InnovationProcess.png",
     text: "Innovation\n Process",
   },
 ];

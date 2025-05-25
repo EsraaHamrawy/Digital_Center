@@ -65,7 +65,7 @@ const CorrsLayout = () => {
         <SideBar
           moduleTitle="CMS"
           moduleSubTitle="Correspondence management"
-          moduleLogo="/images/corrsModuleLogo.svg"
+          moduleLogo="./images/corrsModuleLogo.svg"
           sidebarData={sidebarData}
         />
       </aside>

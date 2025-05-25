@@ -83,7 +83,7 @@ const PurchaseLayout = () => {
       <aside className={`${styles.aside}`}>
         <SideBar
           moduleTitle="Purchase management"
-          moduleLogo="/images/purchaseModuleLogo.svg"
+          moduleLogo="./images/purchaseModuleLogo.svg"
           sidebarData={sidebarData}
         />
       </aside>
