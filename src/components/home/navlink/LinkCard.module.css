@@ -1,0 +1,43 @@
+.linkcontent {
+  display: flex;
+  white-space: pre-wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 200px !important;
+}
+.linkcontent p {
+  color: #074a7d;
+  font-size: 16px;
+  font-weight: 800 !important;
+  line-height: 24px;
+}
+.linkcard {
+  padding: 10px;
+  margin: 10px !important;
+  width: 100% !important;
+  background-color: #ffffffcc !important;
+  border-radius: 10px;
+}
+.linkcard:hover {
+  background-color: #ffffff !important;
+}
+.linktext {
+  text-transform: capitalize;
+  white-space: pre-wrap;
+}
+.deActive,
+.deActive:hover {
+  background-color: #ddd !important;
+}
+.deActive a,
+.deActive:hover a {
+  cursor: not-allowed !important;
+}
+
+.linktext {
+  text-transform: capitalize;
+}
+.deActive {
+  filter: grayscale(1);
+}

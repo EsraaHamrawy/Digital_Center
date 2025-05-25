@@ -1,0 +1,16 @@
+.serchBar {
+  padding: 0px 15px;
+  border-radius: 30px;
+  background: var(--color-gray-1);
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.icon {
+  width: 14px;
+  height: 14px;
+  color: var(--color-gray-0);
+}
