@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://esraahamrawy.github.io/degetai-center",  
+  "homepage": "https://EsraaHamrawy.github.io/degetai-center",  
   "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d dist",
