@@ -1,9 +1,9 @@
 {
-  "name": "general-react-dash-template-mui-vite",
+  "name": "EsraaHamrawy",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://EsraaHamrawy.github.io/Digital_Center",
+  "homepage": "https://EsraaHamrawy.github.io/digital-center",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
