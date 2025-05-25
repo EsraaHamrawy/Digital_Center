@@ -5,13 +5,12 @@
   "type": "module",
   "homepage": "https://esraahamrawy.github.io/degetai-center",  
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
-  },
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
+},
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.0",
